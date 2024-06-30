@@ -14,12 +14,6 @@ public class PersamaanRegresi {
             sumY2 += y[i] * y[i];
         }
 
-        System.out.println(sumX);
-        System.out.println(sumY);
-        System.out.println(sumXY);
-        System.out.println(sumX2);
-        System.out.println(sumY2);
-
         double b = (n * sumXY - sumX * sumY) / (n * sumX2 - sumX * sumX);
         double a = (sumY / n) - b * (sumX / n);
         System.out.println(a);
