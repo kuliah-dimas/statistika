@@ -27,7 +27,7 @@ public class ACT3 {
 
         System.out.printf("a = %.2f, b = %.2f", a, b);
 
-        double x2 = 10;
+        double x2 = 75;
         double langkah4 = a + b * x2;
 
         System.out.printf("%.2f\n", langkah4);
