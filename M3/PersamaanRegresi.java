@@ -16,9 +16,6 @@ public class PersamaanRegresi {
 
         double b = (n * sumXY - sumX * sumY) / (n * sumX2 - sumX * sumX);
         double a = (sumY / n) - b * (sumX / n);
-        System.out.println(a);
-        System.out.println(b);
-
         System.out.printf("a = %f, b = %f\n", a, b);
 
         double x2 = 75;
